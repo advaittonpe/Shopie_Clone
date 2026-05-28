@@ -17,7 +17,7 @@ const App = () => {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/Shopie_Clone">
 
       <Navbar
         setSelectedCategory={setSelectedCategory}
@@ -40,9 +40,10 @@ const App = () => {
           path="/product/:id"
           element={<ProductDetails />}
         />
+
         <Route
-         path="/orders"
-         element={<Orders />}
+          path="/orders"
+          element={<Orders />}
         />
 
       </Routes>
