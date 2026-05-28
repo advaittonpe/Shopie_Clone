@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import {CartContext} from '../context/CartContext'
+import { CartContext } from '../context/CartContext'
 import { IoClose } from "react-icons/io5";
 
 const CheckoutSideMenu = ({isOpen,CloseSidebar}) => {
