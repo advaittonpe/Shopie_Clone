@@ -27,7 +27,7 @@ const App = () => {
       <Routes>
 
         <Route
-          path="/Shopie_Clone"
+          path="/"
           element={
             <Home
               selectedCategory={selectedCategory}
