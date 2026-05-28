@@ -1,6 +1,6 @@
 import { FaPlus } from "react-icons/fa";
 import { useContext } from "react";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../context/Temp";
 
 function ProductCard({ product ,onClick,   onAddToCart})  {
      const { addToCart } = useContext(CartContext);
